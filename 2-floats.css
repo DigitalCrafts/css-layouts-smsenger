@@ -1,0 +1,33 @@
+main {
+    float: left;
+    width: 80%;
+    height: calc(100% - 87px);
+}
+
+header {
+    border-bottom: 2px solid black;
+}
+
+
+/* need to adjust height to adjust to changing content */
+aside {                             
+    float: right;
+    width: 20%;
+    height: 100%;
+    /* padding-bottom: 2000px;
+	margin-bottom: -2000px; */
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+.clearfix {
+    clear: both;
+}
+
+footer {
+    min-height: 100%;
+    margin-bottom: -50px;
+    border-top: 2px solid black;
+    position: relative;
+}
+

@@ -1,0 +1,35 @@
+header, main, aside, footer {
+    position: absolute;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    top: 0;
+    border-bottom: 2px solid black;
+}
+
+aside {
+    width: 20%;
+    right: 0;
+    top: 109px;
+    height: calc(100% - 109px);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+
+main {
+    width: 80%;
+    top: 108px;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    bottom: 0%;
+    width: 100%;
+    border-top: 2px solid black;
+}
